@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		704854681C73088C0061151C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 704854671C73088C0061151C /* main.m */; };
+		7048546B1C73088C0061151C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7048546A1C73088C0061151C /* AppDelegate.m */; };
+		7048546E1C73088C0061151C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7048546D1C73088C0061151C /* ViewController.m */; };
+		704854711C73088C0061151C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7048546F1C73088C0061151C /* Main.storyboard */; };
+		704854731C73088C0061151C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 704854721C73088C0061151C /* Assets.xcassets */; };
+		704854761C73088C0061151C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 704854741C73088C0061151C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		704854631C73088C0061151C /* Shunting-Yard Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shunting-Yard Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		704854671C73088C0061151C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		704854691C73088C0061151C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7048546A1C73088C0061151C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7048546C1C73088C0061151C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7048546D1C73088C0061151C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		704854701C73088C0061151C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		704854721C73088C0061151C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		704854751C73088C0061151C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		704854771C73088C0061151C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		704854601C73088B0061151C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7048545A1C73088B0061151C = {
+			isa = PBXGroup;
+			children = (
+				704854651C73088C0061151C /* Shunting-Yard Calculator */,
+				704854641C73088C0061151C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		704854641C73088C0061151C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				704854631C73088C0061151C /* Shunting-Yard Calculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		704854651C73088C0061151C /* Shunting-Yard Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				704854691C73088C0061151C /* AppDelegate.h */,
+				7048546A1C73088C0061151C /* AppDelegate.m */,
+				7048546C1C73088C0061151C /* ViewController.h */,
+				7048546D1C73088C0061151C /* ViewController.m */,
+				7048546F1C73088C0061151C /* Main.storyboard */,
+				704854721C73088C0061151C /* Assets.xcassets */,
+				704854741C73088C0061151C /* LaunchScreen.storyboard */,
+				704854771C73088C0061151C /* Info.plist */,
+				704854661C73088C0061151C /* Supporting Files */,
+			);
+			path = "Shunting-Yard Calculator";
+			sourceTree = "<group>";
+		};
+		704854661C73088C0061151C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				704854671C73088C0061151C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		704854621C73088B0061151C /* Shunting-Yard Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7048547A1C73088C0061151C /* Build configuration list for PBXNativeTarget "Shunting-Yard Calculator" */;
+			buildPhases = (
+				7048545F1C73088B0061151C /* Sources */,
+				704854601C73088B0061151C /* Frameworks */,
+				704854611C73088B0061151C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shunting-Yard Calculator";
+			productName = "Shunting-Yard Calculator";
+			productReference = 704854631C73088C0061151C /* Shunting-Yard Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7048545B1C73088B0061151C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Vladyslav Korzun";
+				TargetAttributes = {
+					704854621C73088B0061151C = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = B4QE7KC3J2;
+					};
+				};
+			};
+			buildConfigurationList = 7048545E1C73088B0061151C /* Build configuration list for PBXProject "Shunting-Yard Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7048545A1C73088B0061151C;
+			productRefGroup = 704854641C73088C0061151C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				704854621C73088B0061151C /* Shunting-Yard Calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		704854611C73088B0061151C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				704854761C73088C0061151C /* LaunchScreen.storyboard in Resources */,
+				704854731C73088C0061151C /* Assets.xcassets in Resources */,
+				704854711C73088C0061151C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7048545F1C73088B0061151C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7048546E1C73088C0061151C /* ViewController.m in Sources */,
+				7048546B1C73088C0061151C /* AppDelegate.m in Sources */,
+				704854681C73088C0061151C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7048546F1C73088C0061151C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				704854701C73088C0061151C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		704854741C73088C0061151C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				704854751C73088C0061151C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		704854781C73088C0061151C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		704854791C73088C0061151C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7048547B1C73088C0061151C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Shunting-Yard Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vladyslavkorzun.Shunting-Yard-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7048547C1C73088C0061151C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Shunting-Yard Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vladyslavkorzun.Shunting-Yard-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7048545E1C73088B0061151C /* Build configuration list for PBXProject "Shunting-Yard Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				704854781C73088C0061151C /* Debug */,
+				704854791C73088C0061151C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7048547A1C73088C0061151C /* Build configuration list for PBXNativeTarget "Shunting-Yard Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7048547B1C73088C0061151C /* Debug */,
+				7048547C1C73088C0061151C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7048545B1C73088B0061151C /* Project object */;
+}
