@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7019BC451C7DBD6D00146A41 /* InfixToPostfixConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7019BC441C7DBD6D00146A41 /* InfixToPostfixConverter.m */; };
+		7019BC481C7DBE1D00146A41 /* PostfixCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7019BC471C7DBE1D00146A41 /* PostfixCalculator.m */; };
 		704854681C73088C0061151C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 704854671C73088C0061151C /* main.m */; };
 		7048546B1C73088C0061151C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7048546A1C73088C0061151C /* AppDelegate.m */; };
 		7048546E1C73088C0061151C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7048546D1C73088C0061151C /* ViewController.m */; };
@@ -16,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7019BC431C7DBD6D00146A41 /* InfixToPostfixConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfixToPostfixConverter.h; sourceTree = "<group>"; };
+		7019BC441C7DBD6D00146A41 /* InfixToPostfixConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfixToPostfixConverter.m; sourceTree = "<group>"; };
+		7019BC461C7DBE1D00146A41 /* PostfixCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostfixCalculator.h; sourceTree = "<group>"; };
+		7019BC471C7DBE1D00146A41 /* PostfixCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostfixCalculator.m; sourceTree = "<group>"; };
 		704854631C73088C0061151C /* Shunting-Yard Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shunting-Yard Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		704854671C73088C0061151C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		704854691C73088C0061151C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +68,10 @@
 				7048546A1C73088C0061151C /* AppDelegate.m */,
 				7048546C1C73088C0061151C /* ViewController.h */,
 				7048546D1C73088C0061151C /* ViewController.m */,
+				7019BC431C7DBD6D00146A41 /* InfixToPostfixConverter.h */,
+				7019BC441C7DBD6D00146A41 /* InfixToPostfixConverter.m */,
+				7019BC461C7DBE1D00146A41 /* PostfixCalculator.h */,
+				7019BC471C7DBE1D00146A41 /* PostfixCalculator.m */,
 				7048546F1C73088C0061151C /* Main.storyboard */,
 				704854721C73088C0061151C /* Assets.xcassets */,
 				704854741C73088C0061151C /* LaunchScreen.storyboard */,
@@ -151,7 +161,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7048546E1C73088C0061151C /* ViewController.m in Sources */,
+				7019BC481C7DBE1D00146A41 /* PostfixCalculator.m in Sources */,
 				7048546B1C73088C0061151C /* AppDelegate.m in Sources */,
+				7019BC451C7DBD6D00146A41 /* InfixToPostfixConverter.m in Sources */,
 				704854681C73088C0061151C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +313,7 @@
 				7048547C1C73088C0061151C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
